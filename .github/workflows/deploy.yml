@@ -2,6 +2,7 @@ name: 리포트 배포
 # main 브랜치에 변경이 합쳐질 때마다 리포트를 다시 빌드해 GitHub Pages 로 배포한다.
 # (저장소 Settings > Pages > Source 를 "GitHub Actions" 로 한 번 켜 두어야 한다.)
 on:
+  workflow_dispatch:
   push:
     branches: [main]
 
